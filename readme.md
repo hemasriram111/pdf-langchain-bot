@@ -1,6 +1,5 @@
 # MultiPDF Chat App
 
-> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
 
 ## Introduction
 ------------
@@ -34,18 +33,19 @@ To install the MultiPDF Chat App, please follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
-```
+
 
 ## Usage
 -----
 To use the MultiPDF Chat App, follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+1. Ensure that you have installed the required dependencies and u have installed in ollama.
+Execute the following command:
+'''
+ollama run llama2
+''' 
+3.Run the `main.py` file using the Streamlit CLI. Execute the following command:
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
    ```
    streamlit run app.py
    ```
@@ -56,10 +56,3 @@ To use the MultiPDF Chat App, follow these steps:
 
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
 
-## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
-
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
