@@ -77,8 +77,8 @@ For optional functionality:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/hemasriram111/pdf-langchain-bot.git
+   cd app.py
    ```
 
 2. **Run the Application**
